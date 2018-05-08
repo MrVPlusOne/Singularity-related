@@ -70,3 +70,4 @@ updater for s4: append(s4,s2)
 output: s4
 ```
 
+The generated inputs are much more complex and less comprehensible, but they ultilize the weakness underlying Guava's hash smearing function and triggered an n^2 running-time complexity. The developers [changed their hash map implementation](https://github.com/sebasjm/guava/commit/604ee482b59af64be897d6e3350690790f9feccf) in the newer version because of this bug report.
