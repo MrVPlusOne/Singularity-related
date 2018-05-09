@@ -4,21 +4,21 @@ To implement a random search version of Singularity, we replaced Singularity's 4
 
 * The 1 hour plot:
 
-<img width="800" src="images/Compare-with-random-60min.png">
+<img width="600" src="images/Compare-with-random-60min.png">
 
 
 * The first 10 minutes:
 
-<img width="800" src="images/Compare-with-random-10min.png">
+<img width="600" src="images/Compare-with-random-10min.png">
 
-We also plot the performance-time curve of the best run from GP and random search. As we can see from the results, GP steadily and significantly improve over time, while the random search.
+We also plot the performance-time curve of the best run from GP and random search. As we can see from the results, GP steadily and significantly improves over time, whereas the random search oscillate randomly.
 
 * GP best run:
 
-<img width="500" src="images/BestRun-GP.png">
+<img width="600" src="images/BestRun-GP.png">
 
 
 * Random Search best run:
 
-<img width="500" src="images/BestRun-random.png">
+<img width="600" src="images/BestRun-random.png">
 
