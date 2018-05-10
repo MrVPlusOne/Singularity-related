@@ -2,7 +2,7 @@
 
 To implement a random search version of Singularity, we replaced Singularity's 4 genetic operators (crossover, mutation, copy, and constFold) with a new operator that randomly generate RCGs. We compared the performance of the original algorithm with this random version on the Guava ImmutableBiMap example. Results were averaged over 30 runs with 1 hour time limit for each. To see the initial improvement more clearly, we also plot the performance within the first 10 minutes.
 
-Although the random version did make some improvements initially, **after fuzzing for 1 hour, the random search failed to exceed the performance achieved by GP in the first 2 minutes.**
+Although the random version did make some improvements initially, **after fuzzing for 1 hour, the random search failed to match the performance achieved by GP in the first 2 minutes.**
 
 * The 1 hour plot:
 
